@@ -9,9 +9,9 @@ It contains four test suites to test if function works in the project.<br />
 `"New Feed Selection"` test when change to a new feed, the page con load correctly.<br />
 
 ## run the project
-`git clone https://github.com/Fieudi/udacity-RSS-feed-reader.git` to download the project into local
-open the index in browser.
-can make sure the project works in right way by checking the Jasmine on the bottom.
+`git clone https://github.com/Fieudi/udacity-RSS-feed-reader.git` to download the project into local<br />
+open the index in browser.<br />
+can make sure the project works in right way by checking the Jasmine on the bottom.<br />
 
 
 
