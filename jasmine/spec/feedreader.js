@@ -35,7 +35,7 @@ $(function() {
 			for(var i = 0; i < allFeeds.length; i ++){
 				expect(allFeeds[i].url).toBeDefined();
 				expect(allFeeds[i].url).not.toBe('');
-			};
+			}
 		});
 
         /* Write a test that loops through each feed
@@ -83,10 +83,14 @@ $(function() {
          * Remember, loadFeed() is asynchronous so this test will require
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
-		 beforeEach(function(done){
+		 /*beforeEach(function(done){
 			loadFeed(0, done);
-			done();
-		 });
+		 });*/
+		 beforeEach(function(done){
+			 loadFeed(0, function(){
+				 done();
+			 })
+		 })
 		 
 		 it('loadfeed load at least feed',function(){
 			 expect($('.feed')).not.toBe('');
