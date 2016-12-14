@@ -1,7 +1,7 @@
 # Project Overview
 In this project, it include web-based application that reads RSS feeds. It also contains [Jasmine](https://jasmine.github.io/) code to do Javascript test.
 
-## what in Jasmine?
+## what in Jasmine
 It contains four test suites to test if function works in the project.<br />
 `"allFeeds"` can test if the `allFeeds` object cantains URL and name.<br />
 `"The Menu"` can test if the menu element can hide and visible functionally.<br />
