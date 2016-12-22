@@ -8,7 +8,7 @@ It contains four test suites to test if function works in the project.<br />
 `"Initial Entries"` can comfirm feed will be exist after page loading.<br />
 `"New Feed Selection"` test when change to a new feed, the page con load correctly.<br />
 
-## run the project
+## run the project on local
 `git clone https://github.com/Fieudi/RSS-feed-reader.git` to download the project into local<br />
 open the index in browser.<br />
 can make sure the project works in right way by checking the Jasmine on the bottom.<br />
