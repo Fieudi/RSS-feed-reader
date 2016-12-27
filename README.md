@@ -1,5 +1,5 @@
 # Project Overview
-In this project, it include web-based application that reads RSS feeds. It also contains [Jasmine](https://jasmine.github.io/) code to do Javascript test.
+In this project, it includes web-based application that reads RSS feeds. It also contains [Jasmine](https://jasmine.github.io/) code to do Javascript test.
 
 ## what in Jasmine
 It contains four test suites to test if function works in the project.<br />
